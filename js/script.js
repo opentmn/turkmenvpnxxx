@@ -1,4 +1,4 @@
-import { ssylka1, ssylka2, ssylka3, ssylka4, ssylka5 } from "./ssylki.js";
+import workingLink from "./ssylki.js";
 import { admin , aiya , client1 , client2 , client3 , client4 , client5 , client6 , client7 , client8 , client9 , client10 } from "./clients.js";
 
 const block1 = document.querySelector(".block1");
@@ -20,6 +20,8 @@ function f2() {
 }
 btn__ok.addEventListener("click", f3);
 
+
+
 function f3() {
   const kod = pay__kod.value;
   if (
@@ -36,7 +38,7 @@ function f3() {
     kod == client9 ||
     kod == client10
   ) {
-    ssylka4.click();
+    workingLink.click();
   } else {
     alert("Код Неверный");
   }

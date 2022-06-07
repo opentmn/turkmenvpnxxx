@@ -23,4 +23,6 @@ const s5 =
 const ssylka5 = document.createElement("a");
 ssylka5.setAttribute("href", s5);
 
-export { ssylka1, ssylka2, ssylka3, ssylka4, ssylka5 };
+const workingLink = ssylka5;
+
+export default workingLink;
