@@ -22,7 +22,6 @@ btn__ok.addEventListener("click", f3);
 
 function f3() {
   const kod = pay__kod.value;
-  console.log(kod);
   if (
     kod == admin ||
     kod == aiya ||
