@@ -23,6 +23,6 @@ const s5 =
 const ssylka5 = document.createElement("a");
 ssylka5.setAttribute("href", s5);
 
-const workingLink = ssylka5;
+const workingLink = ssylka1;
 
 export default workingLink;
